@@ -172,7 +172,6 @@ public class BankingInformationSystem {
     }
 
     private static int generateAccountNumber() {
-        // This is a simplified way to generate a random account number
         Random random = new Random();
         int max = 999999999;
         int min = 100000000;
